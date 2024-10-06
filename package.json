@@ -1,0 +1,27 @@
+{
+  "name": "fronius_to_knxd",
+  "version": "0.0.1",
+  "description": "Requests data from a Fronius PV inverter and sends it to knxd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kripton/fronius-to-knxd.git"
+  },
+  "keywords": [
+    "fronius",
+    "node",
+    "knxd"
+  ],
+  "author": "Jannis Achstetter <kripton@kripserver.net>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/kripton/fronius-to-knxd/issues"
+  },
+  "homepage": "https://github.com/kripton/fronius-to-knxd#readme",
+  "dependencies": {
+    "knx-datapoints": "^1.1.2"
+  }
+}
